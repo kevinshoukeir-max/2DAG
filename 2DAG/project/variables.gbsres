@@ -23,18 +23,18 @@
     },
     {
       "id": "4",
-      "name": "Quest1",
-      "symbol": "var_quest1"
+      "name": "talkToCat",
+      "symbol": "var_talktocat"
     },
     {
       "id": "5",
-      "name": "Quest2",
-      "symbol": "var_quest2"
+      "name": "bucks",
+      "symbol": "var_bucks"
     },
     {
       "id": "6",
-      "name": "Quest3",
-      "symbol": "var_quest3"
+      "name": "talkToCat2",
+      "symbol": "var_talktocat2"
     },
     {
       "id": "7",
@@ -65,6 +65,11 @@
       "id": "12",
       "name": "PushedIceBlock",
       "symbol": "var_pushediceblock"
+    },
+    {
+      "id": "c08d1dfc-07c6-47bb-95e7-42c926766ed3__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
     }
   ],
   "constants": []
