@@ -18,8 +18,8 @@
     },
     {
       "id": "3",
-      "name": "Spoke To Space Dog",
-      "symbol": "var_spoke_to_space_dog"
+      "name": "speakToDog",
+      "symbol": "var_speaktodog"
     },
     {
       "id": "4",
