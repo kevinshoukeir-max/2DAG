@@ -3,13 +3,13 @@
   "variables": [
     {
       "id": "0",
-      "name": "Seen Cat",
-      "symbol": "var_seen_cat"
+      "name": "catMess",
+      "symbol": "var_catmess"
     },
     {
       "id": "1",
-      "name": "Seen duck",
-      "symbol": "var_seen_duck"
+      "name": "hitTrigger",
+      "symbol": "var_hittrigger"
     },
     {
       "id": "2",
