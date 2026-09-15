@@ -1,7 +1,7 @@
 {
   "_resourceType": "sprite",
   "id": "58e80ea9-fc65-4eb1-b657-4f00d12d8250",
-  "name": "Cloaked Figure",
+  "name": "cloakedfigure",
   "symbol": "sprite_cloaked_figure",
   "states": [
     {
@@ -350,7 +350,7 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "Cloaked Figure.png",
+  "filename": "cloakedfigure.png",
   "width": 96,
   "height": 16,
   "checksum": "060516712d5717015a8e519ad8dcb317b09159f9"
