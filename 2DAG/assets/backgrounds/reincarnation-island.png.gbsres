@@ -3,10 +3,10 @@
   "id": "c299fab7-fa9a-4b19-9b1a-4a3284762644",
   "name": "reincarnation-island",
   "symbol": "bg_reincarnation_island",
-  "tileColors": "",
+  "tileColors": "007d0+",
   "filename": "reincarnation-island.png",
-  "width": 25,
-  "height": 20,
-  "imageWidth": 200,
-  "imageHeight": 160
+  "width": 50,
+  "height": 40,
+  "imageWidth": 400,
+  "imageHeight": 320
 }

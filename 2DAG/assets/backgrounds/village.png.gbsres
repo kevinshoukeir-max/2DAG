@@ -3,10 +3,10 @@
   "id": "e8d28ab5-c760-471a-b3ed-5bc4b27c0941",
   "name": "village",
   "symbol": "bg_village",
-  "tileColors": "",
+  "tileColors": "008ca+",
   "filename": "village.png",
-  "width": 25,
-  "height": 20,
-  "imageWidth": 200,
-  "imageHeight": 160
+  "width": 50,
+  "height": 45,
+  "imageWidth": 400,
+  "imageHeight": 360
 }
