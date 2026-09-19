@@ -1,0 +1,160 @@
+{
+  "_resourceType": "sprite",
+  "id": "b554bedf-ebf1-4a32-a8fe-29c9acd95ca4",
+  "name": "Spirit",
+  "symbol": "sprite_spirit",
+  "states": [
+    {
+      "id": "d28f1e5e-a608-4130-90b4-97b292e0cf9d",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "b4a7dece-e0fe-4d31-a875-a9bb560c20b1",
+          "frames": [
+            {
+              "id": "efbd799b-2947-435a-855f-4b049ed70ca8",
+              "tiles": [
+                {
+                  "id": "8aea358f-e956-434e-9a17-d5516a94e010",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "ab8a6ff8-17c9-4a27-a177-f5dfad654c11",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "0bccb251-cd43-4d3f-b3f9-45d927b66e28",
+              "tiles": [
+                {
+                  "id": "9fd745a3-2bab-46ee-b4d6-9a1693a09996",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "a410213f-6046-4af0-918c-986a7a4d4697",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "27bfe92c-93a4-4cc9-8c3f-f6ac6d6646df",
+          "frames": [
+            {
+              "id": "ce9e129e-459d-4332-b133-283b2c113523",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "de81e707-3a22-42a6-bb5c-54a99438f5bd",
+          "frames": [
+            {
+              "id": "d6d44dee-959e-48a1-a2b3-45c29896670c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7b6666fa-3c86-416e-8fac-d91304d818e9",
+          "frames": [
+            {
+              "id": "a307caf6-44eb-46bf-b51e-fe572e6cdc47",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1781a4f9-4046-4ef9-8621-53f0fd710119",
+          "frames": [
+            {
+              "id": "09cb1471-cada-4534-8260-5da3949c1288",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3677a69c-8956-4328-81d0-47f2c92eca14",
+          "frames": [
+            {
+              "id": "92ed9fd2-0690-4559-8842-1f7450b33738",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a5ff329f-e3ec-418d-9c7c-31b182e30fb1",
+          "frames": [
+            {
+              "id": "1537b519-6abf-4656-ae7a-d892efb4263d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ae65d9da-6dc7-4971-8061-ed5fbe30d1a0",
+          "frames": [
+            {
+              "id": "5fb050e6-b24a-4ecc-84c5-6984d13059f6",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 3,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "Spirit.png",
+  "width": 32,
+  "height": 16,
+  "checksum": "8f8f912a7a92afd0a2b7023441f6fee3a19de145"
+}
