@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "f63641df-0258-44c5-91bf-b827ade6b763",
-  "name": "",
+  "id": "c3aeaf69-e398-4cea-a9ca-356e085a3965",
+  "name": "Elemage",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "84210c19-0d0b-47db-9059-0e7a086c38cd",
+  "spriteSheetId": "b554bedf-ebf1-4a32-a8fe-29c9acd95ca4",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_0",
+  "symbol": "actor_10",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -23,7 +23,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 13,
-  "y": 11,
-  "_index": 0
+  "x": 23,
+  "y": 12,
+  "_index": 3
 }

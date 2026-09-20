@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "7a21c387-a8e0-4c41-bc29-1d0c33436548",
+  "name": "Dojo",
+  "symbol": "bg_dojo",
+  "tileColors": "",
+  "filename": "Dojo.png",
+  "width": 40,
+  "height": 45,
+  "imageWidth": 320,
+  "imageHeight": 360
+}

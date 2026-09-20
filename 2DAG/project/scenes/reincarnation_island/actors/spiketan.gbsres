@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
-  "id": "cca1331d-55a9-4217-a2a9-b0edebb7270f",
-  "name": "",
+  "id": "c582b049-b0d4-4ba9-b52e-2bc7fb8a0010",
+  "name": "Spiketan",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "b554bedf-ebf1-4a32-a8fe-29c9acd95ca4",
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_8",
+  "symbol": "actor_7",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -23,7 +23,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 23,
+  "x": 18,
   "y": 12,
-  "_index": 2
+  "_index": 1
 }
