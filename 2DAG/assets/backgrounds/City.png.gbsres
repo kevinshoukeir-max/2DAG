@@ -3,10 +3,10 @@
   "id": "07ca9535-cbdf-46ea-92d6-05a1999557de",
   "name": "City",
   "symbol": "bg_city",
-  "tileColors": "",
+  "tileColors": "00bb8+",
   "filename": "City.png",
   "width": 60,
-  "height": 40,
+  "height": 50,
   "imageWidth": 480,
-  "imageHeight": 320
+  "imageHeight": 400
 }
