@@ -39,9 +39,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Hp: $10$\nAttack: $07$",
-                "DEF: $08$\nSpeed: $09$",
-                "Sp. ATK: $13$\nSp. Def: $14$"
+                "Hp: $12$/10\nAttack: $07$",
+                "DEF: $08$\nSpeed: $09$"
               ],
               "__section": "text",
               "avatarId": "",
