@@ -16,8 +16,17 @@
   "symbol": "scene_0",
   "x": 1168,
   "y": 2040,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "7c5f1f53-6167-484e-a350-cace5e8dd171"
+      },
+      "id": "58bb3370-236c-4023-8aed-fd2d5ec8c00b"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": false
 }

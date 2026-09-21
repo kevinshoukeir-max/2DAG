@@ -13,63 +13,98 @@
     },
     {
       "id": "2",
-      "name": "Used Radio",
-      "symbol": "var_used_radio"
+      "name": "EnemySPD",
+      "symbol": "var_enemyspd"
     },
     {
       "id": "3",
-      "name": "speakToDog",
-      "symbol": "var_speaktodog"
+      "name": "EnemyHP",
+      "symbol": "var_enemyhp"
     },
     {
       "id": "4",
-      "name": "talkToCat",
-      "symbol": "var_talktocat"
+      "name": "EnemyATK",
+      "symbol": "var_enemyatk"
     },
     {
       "id": "5",
-      "name": "bucks",
-      "symbol": "var_bucks"
+      "name": "sliding",
+      "symbol": "var_sliding"
     },
     {
       "id": "6",
-      "name": "talkToCat2",
-      "symbol": "var_talktocat2"
+      "name": "EnemyDEF",
+      "symbol": "var_enemydef"
     },
     {
       "id": "7",
-      "name": "Quest4",
-      "symbol": "var_quest4"
+      "name": "PlayerSTR",
+      "symbol": "var_playerstr"
     },
     {
       "id": "8",
-      "name": "Quest5",
-      "symbol": "var_quest5"
+      "name": "PlayerDEF",
+      "symbol": "var_playerdef"
     },
     {
       "id": "9",
-      "name": "Quest6",
-      "symbol": "var_quest6"
+      "name": "PlayerSPD",
+      "symbol": "var_playerspd"
     },
     {
       "id": "10",
-      "name": "NewGame",
-      "symbol": "var_newgame"
+      "name": "PlayerMaxHP",
+      "symbol": "var_playermaxhp"
     },
     {
       "id": "11",
-      "name": "SaveGame",
-      "symbol": "var_savegame"
+      "name": "EnemyMaxHP",
+      "symbol": "var_enemymaxhp"
     },
     {
       "id": "12",
-      "name": "PushedIceBlock",
-      "symbol": "var_pushediceblock"
+      "name": "PlayerHP",
+      "symbol": "var_playerhp"
     },
     {
       "id": "c08d1dfc-07c6-47bb-95e7-42c926766ed3__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
+    },
+    {
+      "id": "13",
+      "name": "PlayerSpATK",
+      "symbol": "var_playerspatk"
+    },
+    {
+      "id": "14",
+      "name": "PlayerSpDEF",
+      "symbol": "var_playerspdef"
+    },
+    {
+      "id": "15",
+      "name": "EnemySpATK",
+      "symbol": "var_enemyspatk"
+    },
+    {
+      "id": "16",
+      "name": "EnemySpDEF",
+      "symbol": "var_enemyspdef"
+    },
+    {
+      "id": "17",
+      "name": "Chatiste",
+      "symbol": "var_chatiste"
+    },
+    {
+      "id": "18",
+      "name": "Elemage",
+      "symbol": "var_elemage"
+    },
+    {
+      "id": "19",
+      "name": "Spiketan",
+      "symbol": "var_spiketan"
     }
   ],
   "constants": []

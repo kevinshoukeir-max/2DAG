@@ -16,7 +16,57 @@
   "symbol": "scene_2",
   "x": 1160,
   "y": 1512,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "7c5f1f53-6167-484e-a350-cace5e8dd171"
+      },
+      "id": "3b12192d-f315-4e56-a3a8-c21804140657"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Hp: $10$\nAttack: $07$",
+                "DEF: $08$\nSpeed: $09$",
+                "Sp. ATK: $13$\nSp. Def: $14$"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "91deda90-922f-4826-a218-95a6a5f54088"
+          }
+        ]
+      },
+      "id": "2fb538f5-12a4-45c9-9a20-2cb984091d69"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

@@ -8,7 +8,7 @@
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 15,
+  "animSpeed": 31,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
@@ -16,7 +16,75 @@
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "symbol": "actor_10",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Would you like to\nbe a Elemage?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "e37aa6e2-8ace-47b1-a607-66db65cb27f4"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "18",
+        "trueText": "Yes",
+        "falseText": "No"
+      },
+      "id": "7930fda9-f273-4ad7-a226-73f8b15cc82b"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "18"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "e85869fa-067d-463d-829e-1f9d62c415c4",
+              "x": {
+                "type": "number",
+                "value": 24
+              },
+              "y": {
+                "type": "number",
+                "value": 23
+              },
+              "direction": "",
+              "fadeSpeed": 3
+            },
+            "id": "0bd72f88-9dc7-4f83-a9fe-ff3977fb7013"
+          }
+        ],
+        "false": []
+      },
+      "id": "4f840bdd-0f5e-4498-9108-fb692278940d"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],

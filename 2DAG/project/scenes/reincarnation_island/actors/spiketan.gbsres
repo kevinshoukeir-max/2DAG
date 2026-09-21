@@ -16,7 +16,75 @@
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "symbol": "actor_7",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Would you like to\nbe a Chatiste?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "9c3b1a51-b2f4-4aa1-a877-47fcc52f9058"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "17",
+        "trueText": "Yes",
+        "falseText": "No"
+      },
+      "id": "0faf9802-5034-4c6b-ae67-28887f6d7584"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "17"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "e85869fa-067d-463d-829e-1f9d62c415c4",
+              "x": {
+                "type": "number",
+                "value": 24
+              },
+              "y": {
+                "type": "number",
+                "value": 23
+              },
+              "direction": "",
+              "fadeSpeed": 3
+            },
+            "id": "42cd3234-cfd5-4e88-a5da-84d5a0691229"
+          }
+        ],
+        "false": []
+      },
+      "id": "f060bf97-127b-489a-af63-4c76c8838295"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
