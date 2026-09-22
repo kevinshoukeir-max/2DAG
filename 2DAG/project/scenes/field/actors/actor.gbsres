@@ -76,7 +76,7 @@
           "type": "number",
           "value": 12
         },
-        "direction": "",
+        "direction": "up",
         "fadeSpeed": "2"
       },
       "id": "00808677-160e-4588-86dd-e456077ba283"

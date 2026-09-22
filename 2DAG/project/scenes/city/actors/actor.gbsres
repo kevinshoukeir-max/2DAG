@@ -24,7 +24,7 @@
           "type": "variable",
           "value": "5"
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -74,7 +74,34 @@
             "id": "fa4758b7-d740-4960-8735-bfeae7adf079"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You have yet to\nimpress me with",
+                "your skills."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "3b3160cc-751f-4881-a4bb-0d0bfcda96a2"
+          }
+        ]
       },
       "id": "498d4847-a789-4d22-8c5a-43468a381a1a"
     }

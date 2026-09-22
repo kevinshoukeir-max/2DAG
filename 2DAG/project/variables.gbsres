@@ -27,6 +27,11 @@
       "symbol": "var_enemyatk"
     },
     {
+      "id": "5",
+      "name": "DojoMaster",
+      "symbol": "var_dojomaster"
+    },
+    {
       "id": "6",
       "name": "EnemyDEF",
       "symbol": "var_enemydef"
@@ -97,16 +102,6 @@
       "symbol": "var_spiketan"
     },
     {
-      "id": "c08d1dfc-07c6-47bb-95e7-42c926766ed3__L0",
-      "name": "Local 0",
-      "symbol": "var_local_0"
-    },
-    {
-      "id": "5",
-      "name": "DojoMaster",
-      "symbol": "var_dojomaster"
-    },
-    {
       "id": "20",
       "name": "teaOldMan",
       "symbol": "var_teaoldman"
@@ -150,6 +145,11 @@
       "id": "28",
       "name": "BedRest",
       "symbol": "var_bedrest"
+    },
+    {
+      "id": "c08d1dfc-07c6-47bb-95e7-42c926766ed3__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
     }
   ],
   "constants": []

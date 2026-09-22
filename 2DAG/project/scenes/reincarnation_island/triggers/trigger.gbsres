@@ -1,27 +1,22 @@
 {
-  "_resourceType": "actor",
-  "id": "be8079ee-a604-42f3-831c-f9be7a4b8777",
+  "_resourceType": "trigger",
+  "id": "5e40b0d9-8145-4cfa-b43d-487e1d1621bf",
   "name": "",
-  "frame": 0,
-  "animate": false,
-  "spriteSheetId": "58e80ea9-fc65-4eb1-b657-4f00d12d8250",
   "prefabId": "",
-  "direction": "down",
-  "moveSpeed": 1,
-  "animSpeed": 15,
-  "paletteId": "",
-  "isPinned": false,
-  "persistent": false,
-  "collisionGroup": "",
-  "collisionExtraFlags": [],
+  "x": 18,
+  "y": 14,
+  "symbol": "trigger_1",
   "prefabScriptOverrides": {},
-  "symbol": "actor_4",
+  "width": 12,
+  "height": 1,
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Choose your fate,\nyoung one."
+          "Welcome, young one\n. You have been",
+          "given a second\nchance at life. In",
+          "a different life.\nChoose wisely"
         ],
         "__section": "text",
         "avatarId": "",
@@ -40,16 +35,9 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "58e1c3a1-1620-4e43-a284-f7d38377cadb"
+      "id": "8d120cd5-b2bc-43c3-aff0-d5067b51b4c3"
     }
   ],
-  "startScript": [],
-  "updateScript": [],
-  "hit1Script": [],
-  "hit2Script": [],
-  "hit3Script": [],
-  "coordinateType": "tiles",
-  "x": 23,
-  "y": 8,
+  "leaveScript": [],
   "_index": 0
 }

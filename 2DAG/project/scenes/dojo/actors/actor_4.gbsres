@@ -88,7 +88,7 @@
           "type": "number",
           "value": 10
         },
-        "direction": "",
+        "direction": "up",
         "fadeSpeed": "2"
       },
       "id": "a86cb6c8-ddb5-498e-b597-036b2804f1e2"
