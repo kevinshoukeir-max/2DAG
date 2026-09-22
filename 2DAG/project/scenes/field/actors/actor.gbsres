@@ -36,7 +36,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "If two people meet\n,it's a battle!"
+          "If two people \nmeet, it's a \nbattle!"
         ],
         "__section": "text",
         "avatarId": "",

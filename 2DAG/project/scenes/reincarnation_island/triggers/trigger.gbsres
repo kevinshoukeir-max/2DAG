@@ -14,8 +14,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Welcome, young one\n. You have been",
-          "given a second\nchance at life. In",
+          "Welcome, young \none.You have been",
+          "given a second\nchance at life.In",
           "a different life.\nChoose wisely"
         ],
         "__section": "text",
