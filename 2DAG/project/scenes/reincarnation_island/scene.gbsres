@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "4e63338a-f438-497c-acde-c4d2f150a039",
-  "_index": 2,
+  "_index": 1,
   "name": "Reincarnation Island",
   "backgroundId": "c299fab7-fa9a-4b19-9b1a-4a3284762644",
   "tilesetId": "",
@@ -14,8 +14,8 @@
   "collisions": "006d+0f1f+0012+0f!001f+0f!0010+0f!009+0f!00e+0f!008+0f!00e+0f!009+0f2+00d+0f2+009+0f!00c+0f!009+0f3+00c+0f3+00a+0f!00a+0f!00a+0f3+00c+0f3+00b+0f!008+0f!00a+0f5+00a+0f5+00b+0f!006+0f!00b+0f5+00a+0f5+00c+0f!005+0f!002b+0f!005+0f!002b+0f!005+0f!002b+0f!005+0f!002b+0f!005+0f!002b+0f!005+0f!006+0f!001f+0f!004+0f!005+0f!005+0f2+001e+0f2+004+0f!005+0f!004+0f3+001d+0f3+004+0f!005+0f!004+0f3+001d+0f3+004+0f!005+0f!003+0f5+001b+0f5+003+0f!005+0f!003+0f5+001b+0f5+003+0f!005+0f!002b+0f!005+0f!002b+0f!005+0f!002b+0f!005+0f!002b+0f!005+0f!002b+0f!005+0f!002b+0f!005+0f!00d+0f!0010+0f!00c+0f!005+0f!00c+0f2+00f+0f2+00c+0f!005+0f!00b+0f3+00e+0f3+00c+0f!005+0f!00b+0f3+00e+0f3+00c+0f!006+0f!009+0f5+00c+0f5+00a+0f!008+0f!008+0f5+00c+0f5+009+0f!00a+0f!0025+0f!00c+0f!0023+0f!00e+0f!0021+0f!0010+0f!001f+0f!0012+0f1f+006e+",
   "autoFadeSpeed": 1,
   "symbol": "scene_0",
-  "x": 1168,
-  "y": 2040,
+  "x": 808,
+  "y": 2048,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -28,5 +28,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": false
+  "autoFadeEventCollapse": false,
+  "playerSpriteSheetId": "21f5062d-e081-4afe-ac33-8ae908ead7a4"
 }

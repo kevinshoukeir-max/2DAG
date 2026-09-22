@@ -24,7 +24,7 @@
               "variable": "10",
               "value": {
                 "type": "number",
-                "value": 10
+                "value": 15
               }
             },
             "id": "a645efcd-e968-42d7-9d4b-8f9439783ddb"
@@ -46,7 +46,7 @@
               "variable": "7",
               "value": {
                 "type": "number",
-                "value": 5
+                "value": 7
               }
             },
             "id": "df11cd7f-98fb-4861-8a10-819eb2595e7b"
@@ -95,7 +95,7 @@
               "variable": "10",
               "value": {
                 "type": "number",
-                "value": 12
+                "value": 17
               }
             },
             "id": "1a39f51e-aab8-46f9-a163-ef0f15624635"
@@ -117,7 +117,7 @@
               "variable": "7",
               "value": {
                 "type": "number",
-                "value": 6
+                "value": 8
               }
             },
             "id": "e0833006-2e24-425e-b9d5-fa7467513b7d"
@@ -166,7 +166,7 @@
               "variable": "10",
               "value": {
                 "type": "number",
-                "value": 15
+                "value": 20
               }
             },
             "id": "05f4a51d-e82b-4cd4-8052-eafcb472af89"
@@ -188,7 +188,7 @@
               "variable": "7",
               "value": {
                 "type": "number",
-                "value": 8
+                "value": 10
               }
             },
             "id": "c2c21ae5-fb3b-4eae-8213-aa6893dbf667"

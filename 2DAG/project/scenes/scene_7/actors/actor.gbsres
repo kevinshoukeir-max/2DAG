@@ -1,0 +1,68 @@
+{
+  "_resourceType": "actor",
+  "id": "a98452b1-efe1-4ba2-a6e5-582432d7bef7",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "52ad34df-f245-4b2a-b94c-a82af1002871",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_11",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "20",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "f6345f4c-64f2-4846-a6dd-905366711a80"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "That old man still\nblocking the way?",
+          "Something to help \nhis throat, eh?",
+          "Well, I got this\ntea that should",
+          "help him with that\n. Take this to him"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "03117b43-7f72-46f9-9063-df0f3e08f447"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 9,
+  "y": 5,
+  "_index": 0
+}

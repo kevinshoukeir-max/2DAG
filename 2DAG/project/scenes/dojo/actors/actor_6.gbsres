@@ -1,0 +1,104 @@
+{
+  "_resourceType": "actor",
+  "id": "3587927b-2e0f-4e12-a949-cf7dceb6d7d1",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "52ad34df-f245-4b2a-b94c-a82af1002871",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_28",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "a67b43f4-bfb7-4233-be18-1ebfee3c6432"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0c4ecb56-971a-4400-a49a-cde5ed4e1843"
+      },
+      "id": "e9b584e8-1eaf-4d05-a0ff-3202597006e0"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "b6d6f326-d496-41ab-a307-17f44673e739",
+        "emoteId": "da932101-c304-4f21-8dc9-0f5dc6178727"
+      },
+      "id": "783c2be7-de77-4618-a54d-ec1de6e0eceb"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You gotta go \nthrough me first!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "b8d7cb83-224f-437a-b9e6-b5817278d79e"
+    },
+    {
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {
+        "__collapse": false
+      },
+      "id": "862a610b-3d2d-4b98-bbf9-c44bc22ba40d"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "05e996b9-8aea-4c76-a1cf-b4d67e9e4f25",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 10
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "8c040252-fc54-4b21-9674-763467e2c0d2"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 20,
+  "y": 47,
+  "_index": 5
+}

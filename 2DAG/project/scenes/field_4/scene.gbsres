@@ -1,0 +1,96 @@
+{
+  "_resourceType": "scene",
+  "id": "ddedd323-65ad-4c8b-a1d3-5d60c95c35fc",
+  "_index": 11,
+  "name": "Field",
+  "backgroundId": "b4921ef8-fe91-4fcc-ae59-ec64d70a1d87",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_12",
+  "x": 343,
+  "y": 407,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Dojomaster wants \nto battle!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f4c47c63-113f-4485-9b85-0763608dfa15"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "9"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "2"
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "21",
+              "value": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "75780771-1ef8-4e48-bf8f-ae04bdef96b6"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "21",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "8c18c383-b3fc-451c-bb65-ea4d1e4f91f8"
+          }
+        ]
+      },
+      "id": "fcd41d35-784a-42d4-8302-032700c126f9"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "21f5062d-e081-4afe-ac33-8ae908ead7a4"
+}

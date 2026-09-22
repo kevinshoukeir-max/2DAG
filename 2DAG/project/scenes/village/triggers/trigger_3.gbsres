@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "c2f67839-1745-40a1-b068-d7ca3f8879d4",
+  "name": "",
+  "prefabId": "",
+  "x": 41,
+  "y": 32,
+  "symbol": "trigger_9",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Seems no one is \nhome"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ba50f0ed-d5ce-4c77-b034-d194c8f57885"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

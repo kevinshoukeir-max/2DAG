@@ -16,7 +16,72 @@
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "symbol": "actor_8",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0c4ecb56-971a-4400-a49a-cde5ed4e1843"
+      },
+      "id": "d99b666b-3e20-484a-8eb2-3e09c59bec38"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "b6d6f326-d496-41ab-a307-17f44673e739",
+        "emoteId": "da932101-c304-4f21-8dc9-0f5dc6178727"
+      },
+      "id": "420679f0-6ad7-433e-b731-4a7afd858b36"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "If two people meet\n,it's a battle!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c89f9a52-abda-4218-9785-ff5a0634d41f"
+    },
+    {
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {
+        "__collapse": false
+      },
+      "id": "f2aab277-b2f5-4bb1-b6b1-734efdad7826"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "33e68dcd-71e6-472c-84b0-63a84bad4fc9",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "00808677-160e-4588-86dd-e456077ba283"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],

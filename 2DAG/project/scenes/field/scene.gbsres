@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "b06a6ed6-1e13-4b3e-8737-76229d9ec93e",
-  "_index": 3,
+  "_index": 2,
   "name": "Field",
   "backgroundId": "fe3832c8-2658-4a26-b6f8-d6b65fdd0fa3",
   "tilesetId": "",
@@ -14,10 +14,60 @@
   "collisions": "0047+0fb+005+0f11+002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0ff+003+0ff+0047+",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
-  "x": 1232,
+  "x": 848,
   "y": 984,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "7c5f1f53-6167-484e-a350-cace5e8dd171"
+      },
+      "id": "0a0bef49-2276-40ca-8d30-40d4d328aec1"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Hp: $12$/$10$\nAttack: $07$",
+                "DEF: $08$\nSpeed: $09$"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "2808bfe2-b302-45c9-90b3-3b60d8c0fa80"
+          }
+        ]
+      },
+      "id": "53778f27-d002-4a13-b3d7-a7b245ecd763"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "21f5062d-e081-4afe-ac33-8ae908ead7a4"
 }

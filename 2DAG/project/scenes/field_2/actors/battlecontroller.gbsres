@@ -1,0 +1,92 @@
+{
+  "_resourceType": "actor",
+  "id": "a2b6eeec-c092-43cf-9b02-1323d47a2fb1",
+  "name": "BattleController",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "a74de703-7457-4236-b5af-955462a4718f",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_18",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "21"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "7e3c9744-ff67-4158-98e9-f6af3920e9b7"
+            },
+            "id": "74a7fd9d-bfae-49f9-bbcb-6ffde6d3e738"
+          }
+        ],
+        "false": []
+      },
+      "id": "a05db4b5-d6e1-49da-82f2-fea44443f689"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "21"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "24b82fa8-1d67-4d5f-85c6-474ad9adca0b"
+            },
+            "id": "68aa34aa-920f-45fa-af77-0d46ec5875cc"
+          }
+        ],
+        "false": []
+      },
+      "id": "aebc417a-451f-4a34-a8d0-fcac01d11fca"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 18,
+  "y": 0,
+  "_index": 1
+}

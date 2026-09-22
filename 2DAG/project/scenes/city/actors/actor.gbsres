@@ -1,0 +1,91 @@
+{
+  "_resourceType": "actor",
+  "id": "400e7c47-2dc4-45bd-bce3-8d9ba72aec7d",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "58e80ea9-fc65-4eb1-b657-4f00d12d8250",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_24",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "5"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Wow... I am\nImpressed.",
+                "You are a lot\nstronger than",
+                "I thought. You\nhave proven",
+                "yourself. Take \ncare now."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "1f148db9-ea35-4f81-a9df-fe8d70b84032"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "6616f874-cbb5-45a9-b9f5-5931abdf6491",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 16
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "fa4758b7-d740-4960-8735-bfeae7adf079"
+          }
+        ],
+        "false": []
+      },
+      "id": "498d4847-a789-4d22-8c5a-43468a381a1a"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 49,
+  "y": 42,
+  "_index": 0
+}

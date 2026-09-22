@@ -27,11 +27,6 @@
       "symbol": "var_enemyatk"
     },
     {
-      "id": "5",
-      "name": "sliding",
-      "symbol": "var_sliding"
-    },
-    {
       "id": "6",
       "name": "EnemyDEF",
       "symbol": "var_enemydef"
@@ -67,11 +62,6 @@
       "symbol": "var_playerhp"
     },
     {
-      "id": "c08d1dfc-07c6-47bb-95e7-42c926766ed3__L0",
-      "name": "Local 0",
-      "symbol": "var_local_0"
-    },
-    {
       "id": "13",
       "name": "PlayerSpATK",
       "symbol": "var_playerspatk"
@@ -105,6 +95,61 @@
       "id": "19",
       "name": "Spiketan",
       "symbol": "var_spiketan"
+    },
+    {
+      "id": "c08d1dfc-07c6-47bb-95e7-42c926766ed3__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "5",
+      "name": "DojoMaster",
+      "symbol": "var_dojomaster"
+    },
+    {
+      "id": "20",
+      "name": "teaOldMan",
+      "symbol": "var_teaoldman"
+    },
+    {
+      "id": "21",
+      "name": "BattlePhase",
+      "symbol": "var_battlephase"
+    },
+    {
+      "id": "22",
+      "name": "PlayerChoice",
+      "symbol": "var_playerchoice"
+    },
+    {
+      "id": "23",
+      "name": "Damage",
+      "symbol": "var_damage"
+    },
+    {
+      "id": "24",
+      "name": "Chance",
+      "symbol": "var_chance"
+    },
+    {
+      "id": "25",
+      "name": "EnemyChoice",
+      "symbol": "var_enemychoice"
+    },
+    {
+      "id": "26",
+      "name": "EnemyDefeated",
+      "symbol": "var_enemydefeated"
+    },
+    {
+      "id": "27",
+      "name": "DojoMasterDefeated",
+      "symbol": "var_dojomasterdefeated"
+    },
+    {
+      "id": "28",
+      "name": "BedRest",
+      "symbol": "var_bedrest"
     }
   ],
   "constants": []

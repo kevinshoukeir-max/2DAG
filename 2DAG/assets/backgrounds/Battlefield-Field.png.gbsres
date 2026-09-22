@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "f87420b7-80d4-4dff-9d42-a4641e8858e2",
+  "name": "Battlefield-Field",
+  "symbol": "bg_battlefield_field",
+  "tileColors": "",
+  "filename": "Battlefield-Field.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

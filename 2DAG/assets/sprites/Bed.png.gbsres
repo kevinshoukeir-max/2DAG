@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "54c01630-f645-482e-9126-2793b7f7a268",
+  "name": "Bed",
+  "symbol": "sprite_bed",
+  "states": [
+    {
+      "id": "6b262e23-256f-4e35-8479-62d807a6c93c",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "ffc66b53-0f89-4530-93eb-8533f6aeadde",
+          "frames": [
+            {
+              "id": "9d47c4ed-c8ac-4ff5-8f74-b0d929dab72b",
+              "tiles": [
+                {
+                  "id": "1941eb93-df01-42a1-b7c0-892836983233",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "b6c9bf48-9a39-4a71-aa01-a6e16ab9123c",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "77546b03-c197-4d89-92d5-7da2cf92417f",
+          "frames": [
+            {
+              "id": "e0b9a8e7-de21-4c8a-a7a1-94da7e8a0e43",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "44b7cc81-cd1d-4016-8896-f90c36505e37",
+          "frames": [
+            {
+              "id": "a1570c6b-e993-4aed-b6a0-cf8b178471fa",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7398a114-08c0-409e-bd4e-a58566073bbe",
+          "frames": [
+            {
+              "id": "4dc63781-2f98-4986-8468-8166671105ba",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "16c3397b-a3c4-4e60-83b0-a9443a647b27",
+          "frames": [
+            {
+              "id": "7de86612-1824-4f3f-baaa-8273ace74f79",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d75cedea-659a-4a3d-a7a7-478ea749a98f",
+          "frames": [
+            {
+              "id": "3fd156b1-be7e-470d-9ff9-b5bdf8e1e0ff",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a1d2507c-d081-4a0a-a524-5d2beb945a44",
+          "frames": [
+            {
+              "id": "6913daf5-c97c-403e-94d9-6b82e42dd709",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c552b5c6-f921-4790-b3ce-cf9e7f069a0b",
+          "frames": [
+            {
+              "id": "30655d14-c245-42b2-a789-58dc7945d9a0",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "Bed.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "10224a29f2fd042d2ffe844a64db707b5163f6c7"
+}

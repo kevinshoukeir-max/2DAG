@@ -1,0 +1,92 @@
+{
+  "_resourceType": "actor",
+  "id": "d64249ab-9ad1-4db9-bf0e-64363d9e07c6",
+  "name": "BattleController",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "a74de703-7457-4236-b5af-955462a4718f",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_14",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "21"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "7e3c9744-ff67-4158-98e9-f6af3920e9b7"
+            },
+            "id": "661d71f4-735c-4774-a8bd-8da1af436058"
+          }
+        ],
+        "false": []
+      },
+      "id": "b58326cb-e4b8-4f54-8ad0-691ec96e3de7"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "21"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "24b82fa8-1d67-4d5f-85c6-474ad9adca0b"
+            },
+            "id": "4cd60016-1fa5-4632-9fa7-51282b751849"
+          }
+        ],
+        "false": []
+      },
+      "id": "d19ab15c-5a24-48ee-86b6-35e708703cc9"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 18,
+  "y": 0,
+  "_index": 1
+}

@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "f98ac6e6-d4a0-48cb-82cd-53ea2275edf2",
+  "name": "crackedRock",
+  "symbol": "sprite_crackedrock",
+  "states": [
+    {
+      "id": "2d96be8b-31c7-4194-a597-83999fee9210",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "948dbe67-2c92-42dc-85b6-98f24ffa2db7",
+          "frames": [
+            {
+              "id": "03ab0dc1-948c-4fff-8143-e683436d7254",
+              "tiles": [
+                {
+                  "id": "f2978ca1-3a40-4a8a-a5bb-3b21260c3a38",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "9a77a6f6-60f2-4424-b674-85d560495fc1",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a9ed3668-8cf1-4234-b495-7c47d8da6fdc",
+          "frames": [
+            {
+              "id": "d67f9a0b-7833-4f5c-958f-fa7fb9da7631",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f1af9efc-e192-4a1a-a6ee-51508042d923",
+          "frames": [
+            {
+              "id": "dc953e80-e0d9-477b-b6f9-03080b1d3842",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "92dc7fbb-873c-4000-80ea-c495e49b1f6c",
+          "frames": [
+            {
+              "id": "6d254f89-8e8d-4fbd-9317-9b588c6a1d42",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c743ee22-8544-4fdc-af3b-b0a44831cbe9",
+          "frames": [
+            {
+              "id": "8fa0df93-c29c-47a5-b048-36ab70828c78",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "714cbe0b-bfff-42cc-9c8f-9715af6121e4",
+          "frames": [
+            {
+              "id": "a3cdef38-f873-40a0-9173-3e4f3191e214",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5c7c80bf-c53d-4220-891a-907e7ad95bd9",
+          "frames": [
+            {
+              "id": "caf0814c-cdd4-442f-866e-e6adedd254d3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "42c01311-31a9-481d-bab6-deb04ec1c200",
+          "frames": [
+            {
+              "id": "453912df-9b31-493e-a0f8-930d643c4c18",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "crackedRock.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "2f7371ac70de2b27c2907628bcd893ddb03b8504"
+}

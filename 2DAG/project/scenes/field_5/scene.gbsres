@@ -1,0 +1,96 @@
+{
+  "_resourceType": "scene",
+  "id": "24a9fd47-e9b0-44df-b60d-9d8680086d26",
+  "_index": 12,
+  "name": "Field",
+  "backgroundId": "b4921ef8-fe91-4fcc-ae59-ec64d70a1d87",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_13",
+  "x": 532,
+  "y": 652,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Lax wants \nto battle!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "6899c535-a4b2-4916-981a-872bd7bdef3a"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "9"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "2"
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "21",
+              "value": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "34f4be63-83be-4711-9ba9-661600649e94"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "21",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "7724ad48-626c-40d9-bdb2-00e77abd9f3a"
+          }
+        ]
+      },
+      "id": "21c3d259-c58c-4fd4-93e3-b0a3695c1ddc"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "21f5062d-e081-4afe-ac33-8ae908ead7a4"
+}

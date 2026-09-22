@@ -1,0 +1,105 @@
+{
+  "_resourceType": "actor",
+  "id": "860e5e0d-2d67-4a72-bdaa-090901562eb8",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "54c01630-f645-482e-9126-2793b7f7a268",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_33",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Would you like to\ntake a rest?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "49801a97-88e7-4041-a05e-0eb3040cfd8d"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "28",
+        "trueText": "Yes",
+        "falseText": "No"
+      },
+      "id": "4b064779-a65c-45aa-bb69-4e52a1a7eae2"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "28"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Health has been\nfully restored"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "e09a83c3-53ac-46fe-ac35-794f8af51b64"
+          }
+        ],
+        "false": []
+      },
+      "id": "def4f812-9f05-4a6a-bba8-ae3ee0c66d48"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 16,
+  "y": 14,
+  "_index": 0
+}

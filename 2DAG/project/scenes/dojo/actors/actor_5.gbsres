@@ -1,0 +1,104 @@
+{
+  "_resourceType": "actor",
+  "id": "74b36abb-68df-4734-8185-a4c6b75f041b",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dfa75239-299d-41fe-a6cd-9e9438da1938",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_2",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "4e2ea550-62fd-45ed-8bd9-bcbefa258f13"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0c4ecb56-971a-4400-a49a-cde5ed4e1843"
+      },
+      "id": "2320fa3d-fc70-47c2-b2a2-451d7c05fe86"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "b6d6f326-d496-41ab-a307-17f44673e739",
+        "emoteId": "da932101-c304-4f21-8dc9-0f5dc6178727"
+      },
+      "id": "3c5c16c5-3562-4b37-863f-c2b0da8f2efa"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You are not making\nit to the boss!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "321cfb1c-4ec9-4da6-8232-c0a448864b3e"
+    },
+    {
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {
+        "__collapse": false
+      },
+      "id": "12a1f317-3449-48c7-b4d2-6c961d029f53"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "24a9fd47-e9b0-44df-b60d-9d8680086d26",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 10
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "0e7c242a-e6bf-4ccd-8dcd-e96635aa2c04"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 18,
+  "y": 15,
+  "_index": 4
+}

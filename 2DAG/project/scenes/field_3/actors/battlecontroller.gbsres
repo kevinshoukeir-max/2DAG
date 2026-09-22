@@ -1,0 +1,92 @@
+{
+  "_resourceType": "actor",
+  "id": "69e7a95b-ed6b-4e38-b1c8-519e83e6fb8e",
+  "name": "BattleController",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "a74de703-7457-4236-b5af-955462a4718f",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_23",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "21"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "7e3c9744-ff67-4158-98e9-f6af3920e9b7"
+            },
+            "id": "c73f9ac5-6ad8-4be9-833f-55d53e28c151"
+          }
+        ],
+        "false": []
+      },
+      "id": "ddb819e3-1103-4b74-8333-0f12c16a5de3"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "21"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "24b82fa8-1d67-4d5f-85c6-474ad9adca0b"
+            },
+            "id": "765372d0-5731-4958-93f0-8ff647f1d1f9"
+          }
+        ],
+        "false": []
+      },
+      "id": "daa8ca8e-ee1a-4a17-a1ca-0ae5c9d8bd24"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 18,
+  "y": 0,
+  "_index": 1
+}
