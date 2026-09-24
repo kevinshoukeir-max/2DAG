@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
-  "id": "eb236d72-cdcb-4673-9197-0929ba6654e1",
-  "name": "",
+  "id": "b16234af-5839-4a78-950f-073f78ceb1d8",
+  "name": "Fight 3",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "52ad34df-f245-4b2a-b94c-a82af1002871",
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_17",
+  "symbol": "actor_22",
   "script": [],
   "startScript": [],
   "updateScript": [],

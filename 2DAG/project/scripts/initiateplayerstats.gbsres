@@ -34,8 +34,8 @@
             "args": {
               "variable": "12",
               "value": {
-                "type": "variable",
-                "value": "10"
+                "type": "number",
+                "value": 15
               }
             },
             "id": "be55bf4c-4fd9-4497-a905-b6f1ebc7379f"
@@ -105,8 +105,8 @@
             "args": {
               "variable": "12",
               "value": {
-                "type": "variable",
-                "value": "10"
+                "type": "number",
+                "value": 17
               }
             },
             "id": "fcb0bdeb-0e70-4a31-aa77-db1027bac1c8"
@@ -176,8 +176,8 @@
             "args": {
               "variable": "12",
               "value": {
-                "type": "variable",
-                "value": "10"
+                "type": "number",
+                "value": 20
               }
             },
             "id": "c48a2b05-478f-4cd9-8c91-605ea2adaac7"

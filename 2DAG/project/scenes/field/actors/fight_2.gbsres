@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "b6d6f326-d496-41ab-a307-17f44673e739",
-  "name": "",
+  "id": "ca4908bd-9e6a-4ae5-a811-9671c6481d87",
+  "name": "Fight 2",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "dfa75239-299d-41fe-a6cd-9e9438da1938",
+  "spriteSheetId": "52ad34df-f245-4b2a-b94c-a82af1002871",
   "prefabId": "",
-  "direction": "right",
+  "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -15,28 +15,28 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_8",
+  "symbol": "actor_20",
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "0c4ecb56-971a-4400-a49a-cde5ed4e1843"
       },
-      "id": "d99b666b-3e20-484a-8eb2-3e09c59bec38"
+      "id": "d9503645-cf58-4cde-9e93-c313bdc26102"
     },
     {
       "command": "EVENT_ACTOR_EMOTE",
       "args": {
-        "actorId": "b6d6f326-d496-41ab-a307-17f44673e739",
+        "actorId": "$self$",
         "emoteId": "da932101-c304-4f21-8dc9-0f5dc6178727"
       },
-      "id": "420679f0-6ad7-433e-b731-4a7afd858b36"
+      "id": "c1efe248-1cc2-448a-90c8-ef39cd8f8470"
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "If two people \nmeet, it's a \nbattle!"
+          "Im not losing to\nyou!"
         ],
         "__section": "text",
         "avatarId": "",
@@ -55,19 +55,29 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "c89f9a52-abda-4218-9785-ff5a0634d41f"
+      "id": "17d88e5d-ba36-4001-b38a-af83236c273b"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "31",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "41ceb102-9e2c-45fe-bf20-9cbf9288a09e"
     },
     {
       "command": "EVENT_SCENE_PUSH_STATE",
       "args": {
         "__collapse": false
       },
-      "id": "f2aab277-b2f5-4bb1-b6b1-734efdad7826"
+      "id": "223c25fa-777a-4ca3-a7cd-aebf38ef8a01"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "33e68dcd-71e6-472c-84b0-63a84bad4fc9",
+        "sceneId": "09736176-c3c6-426e-ae90-3f31b06eb8ec",
         "x": {
           "type": "number",
           "value": 9
@@ -79,7 +89,7 @@
         "direction": "up",
         "fadeSpeed": "2"
       },
-      "id": "00808677-160e-4588-86dd-e456077ba283"
+      "id": "8d06602a-2d8e-468f-acf2-409231df46fa"
     }
   ],
   "startScript": [],
@@ -88,7 +98,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 5,
-  "y": 34,
-  "_index": 0
+  "x": 16,
+  "y": 20,
+  "_index": 1
 }

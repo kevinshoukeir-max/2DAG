@@ -150,6 +150,56 @@
       "id": "c08d1dfc-07c6-47bb-95e7-42c926766ed3__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
+    },
+    {
+      "id": "29",
+      "name": "fight1",
+      "symbol": "var_fight1"
+    },
+    {
+      "id": "30",
+      "name": "fight1Won",
+      "symbol": "var_fight1won"
+    },
+    {
+      "id": "31",
+      "name": "fight2",
+      "symbol": "var_fight2"
+    },
+    {
+      "id": "32",
+      "name": "fight2Won",
+      "symbol": "var_fight2won"
+    },
+    {
+      "id": "33",
+      "name": "fight3",
+      "symbol": "var_fight3"
+    },
+    {
+      "id": "34",
+      "name": "fight3Won",
+      "symbol": "var_fight3won"
+    },
+    {
+      "id": "35",
+      "name": "fight4",
+      "symbol": "var_fight4"
+    },
+    {
+      "id": "36",
+      "name": "fight4Won",
+      "symbol": "var_fight4won"
+    },
+    {
+      "id": "37",
+      "name": "fight5",
+      "symbol": "var_fight5"
+    },
+    {
+      "id": "38",
+      "name": "fight5Won",
+      "symbol": "var_fight5won"
     }
   ],
   "constants": []

@@ -20,6 +20,23 @@
   "startScript": [],
   "updateScript": [
     {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "left",
+          "up",
+          "down",
+          "right"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": []
+      },
+      "id": "3cb35a03-3309-4371-a39f-ccebb34369bd"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -33,7 +50,7 @@
             "value": 1
           }
         },
-        "__collapseElse": true,
+        "__collapseElse": false,
         "__collapse": true
       },
       "children": {
@@ -64,7 +81,7 @@
             "value": 2
           }
         },
-        "__collapseElse": true,
+        "__collapseElse": false,
         "__collapse": true
       },
       "children": {

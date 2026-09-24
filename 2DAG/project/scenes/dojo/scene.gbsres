@@ -16,7 +16,97 @@
   "symbol": "scene_6",
   "x": 120,
   "y": 720,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Hp: $12$/$10$\nAttack: $07$",
+                "DEF: $08$\nSpeed: $09$"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "b7f9988c-1d36-4002-a91e-678c0b4f8075"
+          }
+        ]
+      },
+      "id": "30542f2b-a1ca-4e7d-a60a-c3a1f67c8b9d"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "36"
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "3587927b-2e0f-4e12-a949-cf7dceb6d7d1"
+            },
+            "id": "16990d7d-01fd-45ea-b332-cf720521866f"
+          }
+        ],
+        "false": []
+      },
+      "id": "06af2a24-a903-4372-a211-fd0608ad14cf"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "38"
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "74b36abb-68df-4734-8185-a4c6b75f041b"
+            },
+            "id": "b6aaac46-7a17-4331-8f38-91fd79f0beba"
+          }
+        ],
+        "false": []
+      },
+      "id": "26a01739-7b80-4d3b-af7c-ffea6844ee1e"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

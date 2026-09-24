@@ -8,31 +8,100 @@
   "symbol": "script_0",
   "script": [
     {
-      "command": "EVENT_MENU",
+      "command": "EVENT_IF",
       "args": {
-        "variable": "22",
-        "items": 2,
-        "option1": "Fight",
-        "option2": "Run",
-        "option3": "",
-        "option4": "",
-        "option5": "",
-        "option6": "",
-        "option7": "",
-        "option8": "",
-        "cancelOnB": true,
-        "layout": "dialogue",
-        "__collapse": false
+        "condition": {
+          "type": "variable",
+          "value": "17"
+        },
+        "__collapseElse": true,
+        "__collapse": true
       },
-      "id": "6db4a403-16a6-43a0-bec0-f8e946374034"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "22",
+              "items": 2,
+              "option1": "Breakdance",
+              "option2": "Moonwalk",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "dialogue",
+              "__collapse": false
+            },
+            "id": "6db4a403-16a6-43a0-bec0-f8e946374034"
+          }
+        ],
+        "false": []
+      },
+      "id": "6b9205d2-c3e5-4cd3-96ef-ad8e61fe382e"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "18"
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "22",
+              "trueText": "Fireball",
+              "falseText": "Teleport"
+            },
+            "id": "faa8f606-8a10-44b4-b9fe-3f48aba04398"
+          }
+        ],
+        "false": []
+      },
+      "id": "cba700c7-daab-4276-ae5a-ac074ae59a02"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "19"
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "22",
+              "trueText": "Pike Strike",
+              "falseText": "Tactical Retreat"
+            },
+            "id": "bdb0a72d-c043-4a61-a225-fb9914b00371"
+          }
+        ],
+        "false": []
+      },
+      "id": "a16d85a9-5005-4974-8ae4-52fc6cfefbc7"
     },
     {
       "command": "EVENT_SWITCH",
       "args": {
         "variable": "22",
         "choices": 2,
-        "__collapseCase0": true,
-        "__collapseCase1": false,
+        "__collapseCase0": false,
+        "__collapseCase1": true,
         "__collapseCase2": false,
         "__collapseCase3": false,
         "__collapseCase4": false,
@@ -48,7 +117,7 @@
         "__collapseCase14": false,
         "__collapseCase15": false,
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true0": [
@@ -277,6 +346,84 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "29"
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "30",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "5bceee65-0ff1-4a67-b9cf-4524bb081ca2"
+                }
+              ],
+              "false": []
+            },
+            "id": "9c573f32-3281-4d5a-9f86-1577861d8558"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "31"
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "32",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "0395f02a-1a8f-4cd6-b750-87f9080da91b"
+                }
+              ],
+              "false": []
+            },
+            "id": "7438b003-fae9-417d-9267-70d846ba88f2"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "33"
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "34",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "65e40c7b-ae40-4252-9e25-b0e59fcc5bb2"
+                }
+              ],
+              "false": []
+            },
+            "id": "2197cea8-2839-47f3-81ee-8dfa7f231ca2"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -309,17 +456,6 @@
               "__collapse": true
             },
             "id": "adf598bc-e94e-4c38-a918-37de5b4b2f32"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "26",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": true
-            },
-            "id": "165f4ce2-76b4-4182-a266-36dbc85cf71a"
           }
         ],
         "false": [

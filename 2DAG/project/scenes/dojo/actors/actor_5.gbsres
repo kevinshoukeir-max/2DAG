@@ -18,16 +18,6 @@
   "symbol": "actor_2",
   "script": [
     {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "5",
-        "value": {
-          "type": "true"
-        }
-      },
-      "id": "4e2ea550-62fd-45ed-8bd9-bcbefa258f13"
-    },
-    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "0c4ecb56-971a-4400-a49a-cde5ed4e1843"
@@ -66,6 +56,16 @@
         "closeDelayFrames": 30
       },
       "id": "321cfb1c-4ec9-4da6-8232-c0a448864b3e"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "37",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "4e2ea550-62fd-45ed-8bd9-bcbefa258f13"
     },
     {
       "command": "EVENT_SCENE_PUSH_STATE",

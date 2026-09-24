@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "ca4908bd-9e6a-4ae5-a811-9671c6481d87",
-  "name": "",
+  "id": "6f5d1156-a128-4e1e-9f51-02f58b702608",
+  "name": "Fight 3",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "52ad34df-f245-4b2a-b94c-a82af1002871",
   "prefabId": "",
-  "direction": "down",
+  "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -15,22 +15,22 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_20",
+  "symbol": "actor_21",
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "0c4ecb56-971a-4400-a49a-cde5ed4e1843"
       },
-      "id": "d9503645-cf58-4cde-9e93-c313bdc26102"
+      "id": "6b9c7c94-3931-417a-8445-2e923da55e2b"
     },
     {
       "command": "EVENT_ACTOR_EMOTE",
       "args": {
-        "actorId": "b6d6f326-d496-41ab-a307-17f44673e739",
+        "actorId": "$self$",
         "emoteId": "da932101-c304-4f21-8dc9-0f5dc6178727"
       },
-      "id": "c1efe248-1cc2-448a-90c8-ef39cd8f8470"
+      "id": "8fede465-3a0e-4faa-ae2a-3141edd68c06"
     },
     {
       "command": "EVENT_TEXT",
@@ -55,31 +55,41 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "17d88e5d-ba36-4001-b38a-af83236c273b"
+      "id": "681eaa63-656e-483d-ad99-99313434da77"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "33",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "81809047-c927-4840-9157-9cf1abcc3313"
     },
     {
       "command": "EVENT_SCENE_PUSH_STATE",
       "args": {
         "__collapse": false
       },
-      "id": "223c25fa-777a-4ca3-a7cd-aebf38ef8a01"
+      "id": "47e30322-88c5-49c8-8b07-5c8a34c74f29"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "09736176-c3c6-426e-ae90-3f31b06eb8ec",
+        "sceneId": "42d74416-1be0-49da-995b-1f0c50cbe8fc",
         "x": {
           "type": "number",
           "value": 9
         },
         "y": {
           "type": "number",
-          "value": 12
+          "value": 11
         },
         "direction": "up",
         "fadeSpeed": "2"
       },
-      "id": "8d06602a-2d8e-468f-acf2-409231df46fa"
+      "id": "46e47eb7-ff18-4049-afae-231ca02d1c8e"
     }
   ],
   "startScript": [],
@@ -88,7 +98,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 16,
-  "y": 20,
-  "_index": 1
+  "x": 13,
+  "y": 7,
+  "_index": 2
 }

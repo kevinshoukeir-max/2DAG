@@ -68,6 +68,16 @@
       "id": "b8d7cb83-224f-437a-b9e6-b5817278d79e"
     },
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "35",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "e719f03a-3da2-44e1-ad7c-931ead05c6ef"
+    },
+    {
       "command": "EVENT_SCENE_PUSH_STATE",
       "args": {
         "__collapse": false
