@@ -74,7 +74,7 @@
       "args": {
         "variable": "25",
         "choices": 2,
-        "__collapseCase0": true,
+        "__collapseCase0": false,
         "__collapseCase1": false,
         "__collapseCase2": false,
         "__collapseCase3": false,
@@ -91,7 +91,7 @@
         "__collapseCase14": false,
         "__collapseCase15": false,
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true0": [
@@ -152,6 +152,13 @@
                     "closeDelayFrames": 30
                   },
                   "id": "43a2374d-ee26-4e8f-ac5c-c65b696cd2b5"
+                },
+                {
+                  "command": "EVENT_SCENE_POP_STATE",
+                  "args": {
+                    "fadeSpeed": "2"
+                  },
+                  "id": "64fdf132-dde8-460c-935c-9fdb15babcc6"
                 }
               ],
               "false": [
@@ -299,7 +306,8 @@
             "value": 0
           }
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": true
       },
       "children": {
         "true": [

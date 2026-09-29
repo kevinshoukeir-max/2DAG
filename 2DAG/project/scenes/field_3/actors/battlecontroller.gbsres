@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "69e7a95b-ed6b-4e38-b1c8-519e83e6fb8e",
+  "id": "34949dcd-5610-4950-9f7b-bcdd33b71682",
   "name": "BattleController",
   "frame": 0,
   "animate": false,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_23",
+  "symbol": "actor_27",
   "script": [],
   "startScript": [],
   "updateScript": [
@@ -34,7 +34,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -43,12 +43,12 @@
             "args": {
               "customEventId": "7e3c9744-ff67-4158-98e9-f6af3920e9b7"
             },
-            "id": "c73f9ac5-6ad8-4be9-833f-55d53e28c151"
+            "id": "0b36761e-1bab-4e71-b07a-f18c411c7904"
           }
         ],
         "false": []
       },
-      "id": "ddb819e3-1103-4b74-8333-0f12c16a5de3"
+      "id": "3b884a66-38b2-47c3-a917-5ea8201311ed"
     },
     {
       "command": "EVENT_IF",
@@ -74,12 +74,12 @@
             "args": {
               "customEventId": "24b82fa8-1d67-4d5f-85c6-474ad9adca0b"
             },
-            "id": "765372d0-5731-4958-93f0-8ff647f1d1f9"
+            "id": "a690d1fb-8f7e-482d-af21-02abd51f57d7"
           }
         ],
         "false": []
       },
-      "id": "daa8ca8e-ee1a-4a17-a1ca-0ae5c9d8bd24"
+      "id": "a4baed27-e68b-4045-a00a-4f9c82affe9c"
     }
   ],
   "hit1Script": [],

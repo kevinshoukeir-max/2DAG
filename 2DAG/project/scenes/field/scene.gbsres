@@ -1,141 +1,92 @@
 {
   "_resourceType": "scene",
-  "id": "b06a6ed6-1e13-4b3e-8737-76229d9ec93e",
-  "_index": 2,
+  "id": "09736176-c3c6-426e-ae90-3f31b06eb8ec",
+  "_index": 8,
   "name": "Field",
-  "backgroundId": "fe3832c8-2658-4a26-b6f8-d6b65fdd0fa3",
+  "backgroundId": "f87420b7-80d4-4dff-9d42-a4641e8858e2",
   "tilesetId": "",
-  "width": 35,
-  "height": 50,
+  "width": 20,
+  "height": 18,
   "type": "TOPDOWN",
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0047+0fb+005+0f11+002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0f!001f+0f!002+0ff+003+0ff+0047+",
+  "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_4",
-  "x": 848,
-  "y": 984,
+  "symbol": "scene_10",
+  "x": 1592,
+  "y": 1000,
   "script": [
     {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "command": "EVENT_TEXT",
       "args": {
-        "customEventId": "7c5f1f53-6167-484e-a350-cace5e8dd171"
+        "text": [
+          "Paula wants to\nbattle!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
       },
-      "id": "0a0bef49-2276-40ca-8d30-40d4d328aec1"
+      "id": "029c083e-8024-4b8f-a40e-08c1463dc5af"
     },
     {
-      "command": "EVENT_SET_INPUT_SCRIPT",
+      "command": "EVENT_IF",
       "args": {
-        "input": [
-          "start"
-        ],
-        "override": true,
-        "__scriptTabs": "press"
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "9"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "2"
+          }
+        },
+        "__collapseElse": false
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_TEXT",
+            "command": "EVENT_SET_VALUE",
             "args": {
-              "text": [
-                "Hp: $12$/$10$\nAttack: $07$",
-                "DEF: $08$\nSpeed: $09$"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "variable": "21",
+              "value": {
+                "type": "number",
+                "value": 2
+              }
             },
-            "id": "2808bfe2-b302-45c9-90b3-3b60d8c0fa80"
+            "id": "3595dd97-fc01-4236-9d8d-6590c499ebb4"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "21",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "fe20c8c4-ad3f-4851-9ba7-bbf902b460f6"
           }
         ]
       },
-      "id": "53778f27-d002-4a13-b3d7-a7b245ecd763"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "variable",
-          "value": "30"
-        },
-        "__collapseElse": true,
-        "__collapse": false
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "b6d6f326-d496-41ab-a307-17f44673e739"
-            },
-            "id": "15776c46-2d2a-401e-b868-75b58d1fbf97"
-          }
-        ],
-        "false": []
-      },
-      "id": "8edcbf5e-a93e-4cac-b2f3-b9a105d0f5af"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "variable",
-          "value": "32"
-        },
-        "__collapseElse": true,
-        "__collapse": false
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "ca4908bd-9e6a-4ae5-a811-9671c6481d87"
-            },
-            "id": "9137c955-a27c-4884-8145-829208488d89"
-          }
-        ],
-        "false": []
-      },
-      "id": "11df145d-2c4e-435c-8f97-1e1bbb975f02"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "variable",
-          "value": "34"
-        },
-        "__collapseElse": true,
-        "__collapse": false
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "6f5d1156-a128-4e1e-9f51-02f58b702608"
-            },
-            "id": "8061e53e-8608-45d3-aa62-5aadc46e0655"
-          }
-        ],
-        "false": []
-      },
-      "id": "4eb4d5a4-1e1c-477e-a13f-5c419442bb46"
+      "id": "46dc745c-db95-479a-bc35-5891cd36d91d"
     }
   ],
   "playerHit1Script": [],

@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
-  "id": "ddedd323-65ad-4c8b-a1d3-5d60c95c35fc",
-  "_index": 11,
+  "id": "24a9fd47-e9b0-44df-b60d-9d8680086d26",
+  "_index": 12,
   "name": "Field",
   "backgroundId": "b4921ef8-fe91-4fcc-ae59-ec64d70a1d87",
   "tilesetId": "",
@@ -13,15 +13,15 @@
   "spritePaletteIds": [],
   "collisions": "00168+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_12",
-  "x": 343,
-  "y": 407,
+  "symbol": "scene_13",
+  "x": 532,
+  "y": 652,
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Dojomaster wants \nto battle!"
+          "Lax wants \nto battle!"
         ],
         "__section": "text",
         "avatarId": "",
@@ -40,7 +40,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "f4c47c63-113f-4485-9b85-0763608dfa15"
+      "id": "6899c535-a4b2-4916-981a-872bd7bdef3a"
     },
     {
       "command": "EVENT_IF",
@@ -69,7 +69,7 @@
                 "value": 2
               }
             },
-            "id": "75780771-1ef8-4e48-bf8f-ae04bdef96b6"
+            "id": "34f4be63-83be-4711-9ba9-661600649e94"
           }
         ],
         "false": [
@@ -82,11 +82,11 @@
                 "value": 1
               }
             },
-            "id": "8c18c383-b3fc-451c-bb65-ea4d1e4f91f8"
+            "id": "7724ad48-626c-40d9-bdb2-00e77abd9f3a"
           }
         ]
       },
-      "id": "fcd41d35-784a-42d4-8302-032700c126f9"
+      "id": "21c3d259-c58c-4fd4-93e3-b0a3695c1ddc"
     }
   ],
   "playerHit1Script": [],

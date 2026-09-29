@@ -1,2 +1,2 @@
 # 2DAG
-A 2D made in GB Studio
+Multi Reborn is a top-down RPG made in GB Studio

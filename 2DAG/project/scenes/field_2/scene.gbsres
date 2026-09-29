@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
-  "id": "09736176-c3c6-426e-ae90-3f31b06eb8ec",
-  "_index": 8,
+  "id": "42d74416-1be0-49da-995b-1f0c50cbe8fc",
+  "_index": 9,
   "name": "Field",
   "backgroundId": "f87420b7-80d4-4dff-9d42-a4641e8858e2",
   "tilesetId": "",
@@ -13,15 +13,15 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_10",
-  "x": 1592,
-  "y": 1000,
+  "symbol": "scene_11",
+  "x": 1600,
+  "y": 680,
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Paula wants to\nbattle!"
+          "Seline wants to\nbattle!"
         ],
         "__section": "text",
         "avatarId": "",
@@ -40,7 +40,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "029c083e-8024-4b8f-a40e-08c1463dc5af"
+      "id": "b33b565c-3167-424c-9462-b68b5d7685f9"
     },
     {
       "command": "EVENT_IF",
@@ -69,7 +69,7 @@
                 "value": 2
               }
             },
-            "id": "3595dd97-fc01-4236-9d8d-6590c499ebb4"
+            "id": "cf593b68-283a-4d55-b150-eb61e7d250e5"
           }
         ],
         "false": [
@@ -82,11 +82,11 @@
                 "value": 1
               }
             },
-            "id": "fe20c8c4-ad3f-4851-9ba7-bbf902b460f6"
+            "id": "2b6f9ab4-b197-4bba-8906-8a46526ede0d"
           }
         ]
       },
-      "id": "46dc745c-db95-479a-bc35-5891cd36d91d"
+      "id": "ddeaebf4-1a98-4a67-b776-0ef95502faa0"
     }
   ],
   "playerHit1Script": [],
