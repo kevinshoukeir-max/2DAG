@@ -1,8 +1,8 @@
 {
   "_resourceType": "scene",
-  "id": "05e996b9-8aea-4c76-a1cf-b4d67e9e4f25",
-  "_index": 13,
-  "name": "Field",
+  "id": "24a9fd47-e9b0-44df-b60d-9d8680086d26",
+  "_index": 12,
+  "name": "Battle5",
   "backgroundId": "b4921ef8-fe91-4fcc-ae59-ec64d70a1d87",
   "tilesetId": "",
   "width": 20,
@@ -13,15 +13,15 @@
   "spritePaletteIds": [],
   "collisions": "00168+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_14",
-  "x": 533,
-  "y": 956,
+  "symbol": "scene_13",
+  "x": 532,
+  "y": 652,
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Brasta wants \nto battle!"
+          "Lax wants \nto battle!"
         ],
         "__section": "text",
         "avatarId": "",
@@ -40,7 +40,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "098ab303-eadb-4465-ad32-cce8b4c1edd8"
+      "id": "6899c535-a4b2-4916-981a-872bd7bdef3a"
     },
     {
       "command": "EVENT_IF",
@@ -69,7 +69,7 @@
                 "value": 2
               }
             },
-            "id": "e740e126-6a9f-497f-bfb4-1e18b4edba3f"
+            "id": "34f4be63-83be-4711-9ba9-661600649e94"
           }
         ],
         "false": [
@@ -82,11 +82,11 @@
                 "value": 1
               }
             },
-            "id": "f235e8c6-e015-4a15-adf8-71b8f1a332b9"
+            "id": "7724ad48-626c-40d9-bdb2-00e77abd9f3a"
           }
         ]
       },
-      "id": "7e3c970b-167a-43e0-b408-3b2bc561c81b"
+      "id": "21c3d259-c58c-4fd4-93e3-b0a3695c1ddc"
     }
   ],
   "playerHit1Script": [],

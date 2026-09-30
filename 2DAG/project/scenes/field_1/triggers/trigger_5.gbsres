@@ -1,6 +1,6 @@
 {
   "_resourceType": "trigger",
-  "id": "abe9a2d8-ca82-4f58-821d-ee46321dcc04",
+  "id": "cf19ffcd-f343-4ee8-adde-f4cd09fa58d8",
   "name": "",
   "prefabId": "",
   "x": 15,
@@ -29,7 +29,7 @@
             "args": {
               "customEventId": "0c4ecb56-971a-4400-a49a-cde5ed4e1843"
             },
-            "id": "5c9accd5-4fb1-4758-861c-cbca01aa1659"
+            "id": "01527d79-8a3e-4f9f-b927-6eaef2cc6480"
           },
           {
             "command": "EVENT_ACTOR_EMOTE",
@@ -37,7 +37,7 @@
               "actorId": "6f5d1156-a128-4e1e-9f51-02f58b702608",
               "emoteId": "da932101-c304-4f21-8dc9-0f5dc6178727"
             },
-            "id": "355fcf1f-63fb-4138-848f-014fb282244d"
+            "id": "6d161d9a-26c6-4f86-a118-79cfa73d6f74"
           },
           {
             "command": "EVENT_ACTOR_MOVE_TO",
@@ -59,13 +59,13 @@
               "lockDirection": [],
               "moveType": "horizontal"
             },
-            "id": "2b77d8a4-58b0-48ee-b5d4-cf7d3db04e42"
+            "id": "57134e76-53ed-4e40-a5db-04759eb32011"
           },
           {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Im not losing to\nyou!"
+                "If two people \nmeet, it's a \nbattle!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -84,7 +84,7 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "8e73f02e-da5f-4d69-99ee-16ff04f2fd3f"
+            "id": "b1e247f6-0d72-4686-9d80-0b6741f20b3b"
           },
           {
             "command": "EVENT_SET_VALUE",
@@ -94,24 +94,24 @@
                 "type": "true"
               }
             },
-            "id": "4f855943-9187-4400-b865-8fecabadd06b"
+            "id": "371a17d5-eae5-4993-be61-044d2f478007"
           },
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "33e68dcd-71e6-472c-84b0-63a84bad4fc9",
+              "sceneId": "42d74416-1be0-49da-995b-1f0c50cbe8fc",
               "x": {
                 "type": "number",
                 "value": 9
               },
               "y": {
                 "type": "number",
-                "value": 12
+                "value": 11
               },
               "direction": "up",
               "fadeSpeed": "2"
             },
-            "id": "efd3f5cc-9ab8-40b3-87e2-69aa027f12be"
+            "id": "c1702042-cd33-415e-b9d3-80fbaccb9208"
           }
         ],
         "false": [
@@ -120,11 +120,11 @@
             "args": {
               "__collapse": false
             },
-            "id": "e5625332-d4a3-43d6-b8f1-401770fde520"
+            "id": "5d729f7a-edc7-4293-9624-a2730f191e3b"
           }
         ]
       },
-      "id": "04c6e0df-0c3f-4fb2-ab58-90f6baf013d3"
+      "id": "a805708c-078d-48de-b11b-eb79585989cb"
     }
   ],
   "leaveScript": [],

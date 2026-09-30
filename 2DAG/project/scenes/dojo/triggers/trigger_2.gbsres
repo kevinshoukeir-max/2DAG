@@ -1,14 +1,14 @@
 {
   "_resourceType": "trigger",
-  "id": "8bc6109e-e79d-4842-8a1f-22ab91d9b6ec",
+  "id": "7d582979-f987-4f89-88b2-799bd0d0937a",
   "name": "",
   "prefabId": "",
-  "x": 17,
-  "y": 21,
-  "symbol": "trigger_17",
+  "x": 18,
+  "y": 47,
+  "symbol": "trigger_19",
   "prefabScriptOverrides": {},
-  "width": 1,
-  "height": 8,
+  "width": 2,
+  "height": 1,
   "script": [
     {
       "command": "EVENT_IF",
@@ -17,7 +17,7 @@
           "type": "not",
           "value": {
             "type": "variable",
-            "value": "31"
+            "value": "35"
           }
         },
         "__collapseElse": true
@@ -29,43 +29,21 @@
             "args": {
               "customEventId": "0c4ecb56-971a-4400-a49a-cde5ed4e1843"
             },
-            "id": "f913d4e4-58fa-41c4-bb0b-38bf2a0c2bfe"
+            "id": "fde99d1d-2432-44f4-859d-51b6a730fa1a"
           },
           {
             "command": "EVENT_ACTOR_EMOTE",
             "args": {
-              "actorId": "ca4908bd-9e6a-4ae5-a811-9671c6481d87",
+              "actorId": "3587927b-2e0f-4e12-a949-cf7dceb6d7d1",
               "emoteId": "da932101-c304-4f21-8dc9-0f5dc6178727"
             },
-            "id": "68160b01-ef82-4fcb-b83c-cb058db2e456"
-          },
-          {
-            "command": "EVENT_ACTOR_MOVE_TO",
-            "args": {
-              "__section": "movement",
-              "actorId": "ca4908bd-9e6a-4ae5-a811-9671c6481d87",
-              "x": {
-                "type": "number",
-                "value": 17
-              },
-              "y": {
-                "type": "number",
-                "value": 28
-              },
-              "collideWith": [
-                "walls",
-                "actors"
-              ],
-              "lockDirection": [],
-              "moveType": "horizontal"
-            },
-            "id": "4890dfd1-a84a-4ad3-8748-ad32dbcbfb97"
+            "id": "e90e32a0-230f-436e-9ce8-25c8ad49aa6b"
           },
           {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Im not losing to\nyou!"
+                "You gotta go \nthrough me first!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -84,34 +62,34 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "c1e25100-aa59-480d-a06e-02b5aa2905c3"
+            "id": "08272039-1553-4ba6-a353-6437b6f12388"
           },
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "31",
+              "variable": "35",
               "value": {
                 "type": "true"
               }
             },
-            "id": "78b65d63-0fb5-4cb2-b990-033c50f0d319"
+            "id": "b850a0e4-ccf4-401c-b269-b6a0b9d3a9f4"
           },
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "09736176-c3c6-426e-ae90-3f31b06eb8ec",
+              "sceneId": "05e996b9-8aea-4c76-a1cf-b4d67e9e4f25",
               "x": {
                 "type": "number",
                 "value": 9
               },
               "y": {
                 "type": "number",
-                "value": 12
+                "value": 10
               },
               "direction": "up",
               "fadeSpeed": "2"
             },
-            "id": "a7b8e191-c537-4665-a135-03252baa734c"
+            "id": "089fa30e-a836-4444-b371-ffdcc2addd8d"
           }
         ],
         "false": [
@@ -120,13 +98,13 @@
             "args": {
               "__collapse": false
             },
-            "id": "202740a8-275c-487e-ab2d-5ad49adf3c89"
+            "id": "140b4918-a557-4783-abe1-ee1d22b46667"
           }
         ]
       },
-      "id": "3fd299e6-78e8-4f3b-954c-74045301f73a"
+      "id": "f7985c5d-3635-452b-a6e8-5c133526517d"
     }
   ],
   "leaveScript": [],
-  "_index": 3
+  "_index": 1
 }

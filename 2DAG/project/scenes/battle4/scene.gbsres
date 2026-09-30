@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "33e68dcd-71e6-472c-84b0-63a84bad4fc9",
-  "_index": 7,
-  "name": "Scene 9",
-  "backgroundId": "f87420b7-80d4-4dff-9d42-a4641e8858e2",
+  "id": "05e996b9-8aea-4c76-a1cf-b4d67e9e4f25",
+  "_index": 13,
+  "name": "Battle4",
+  "backgroundId": "b4921ef8-fe91-4fcc-ae59-ec64d70a1d87",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -11,17 +11,17 @@
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "00168+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_9",
-  "x": 1576,
-  "y": 1280,
+  "symbol": "scene_14",
+  "x": 533,
+  "y": 956,
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Paul wants to\nbattle!"
+          "Brasta wants \nto battle!"
         ],
         "__section": "text",
         "avatarId": "",
@@ -40,7 +40,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "c8104fdc-0d6e-4dc8-a6dd-400c43e658a5"
+      "id": "098ab303-eadb-4465-ad32-cce8b4c1edd8"
     },
     {
       "command": "EVENT_IF",
@@ -69,7 +69,7 @@
                 "value": 2
               }
             },
-            "id": "20241ca0-40a8-41c7-8b13-545b16fab3d7"
+            "id": "e740e126-6a9f-497f-bfb4-1e18b4edba3f"
           }
         ],
         "false": [
@@ -82,11 +82,11 @@
                 "value": 1
               }
             },
-            "id": "3737e5c8-74b4-415a-9656-1d4cf28e32fb"
+            "id": "f235e8c6-e015-4a15-adf8-71b8f1a332b9"
           }
         ]
       },
-      "id": "5798a5d0-a0e7-4a47-a98e-6b15035d7a52"
+      "id": "7e3c970b-167a-43e0-b408-3b2bc561c81b"
     }
   ],
   "playerHit1Script": [],

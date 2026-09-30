@@ -1,14 +1,14 @@
 {
   "_resourceType": "trigger",
-  "id": "8bc6109e-e79d-4842-8a1f-22ab91d9b6ec",
+  "id": "fc1f1ff3-b119-45e4-9037-ae4f02b6ff19",
   "name": "",
   "prefabId": "",
-  "x": 17,
-  "y": 21,
-  "symbol": "trigger_17",
+  "x": 20,
+  "y": 15,
+  "symbol": "trigger_20",
   "prefabScriptOverrides": {},
-  "width": 1,
-  "height": 8,
+  "width": 2,
+  "height": 1,
   "script": [
     {
       "command": "EVENT_IF",
@@ -17,7 +17,7 @@
           "type": "not",
           "value": {
             "type": "variable",
-            "value": "31"
+            "value": "37"
           }
         },
         "__collapseElse": true
@@ -29,43 +29,21 @@
             "args": {
               "customEventId": "0c4ecb56-971a-4400-a49a-cde5ed4e1843"
             },
-            "id": "f913d4e4-58fa-41c4-bb0b-38bf2a0c2bfe"
+            "id": "7af99a8a-b168-4190-8554-827f8ca3a791"
           },
           {
             "command": "EVENT_ACTOR_EMOTE",
             "args": {
-              "actorId": "ca4908bd-9e6a-4ae5-a811-9671c6481d87",
+              "actorId": "74b36abb-68df-4734-8185-a4c6b75f041b",
               "emoteId": "da932101-c304-4f21-8dc9-0f5dc6178727"
             },
-            "id": "68160b01-ef82-4fcb-b83c-cb058db2e456"
-          },
-          {
-            "command": "EVENT_ACTOR_MOVE_TO",
-            "args": {
-              "__section": "movement",
-              "actorId": "ca4908bd-9e6a-4ae5-a811-9671c6481d87",
-              "x": {
-                "type": "number",
-                "value": 17
-              },
-              "y": {
-                "type": "number",
-                "value": 28
-              },
-              "collideWith": [
-                "walls",
-                "actors"
-              ],
-              "lockDirection": [],
-              "moveType": "horizontal"
-            },
-            "id": "4890dfd1-a84a-4ad3-8748-ad32dbcbfb97"
+            "id": "2f4c6af8-fe7b-4feb-81d8-c797aa2f702c"
           },
           {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Im not losing to\nyou!"
+                "You are not making\nit to the boss!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -84,34 +62,34 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "c1e25100-aa59-480d-a06e-02b5aa2905c3"
+            "id": "b3ecdd2d-1f59-4ef8-baed-7cba7c11cae5"
           },
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "31",
+              "variable": "37",
               "value": {
                 "type": "true"
               }
             },
-            "id": "78b65d63-0fb5-4cb2-b990-033c50f0d319"
+            "id": "af25ec33-dd25-4046-8f30-dbe7896ddd64"
           },
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "09736176-c3c6-426e-ae90-3f31b06eb8ec",
+              "sceneId": "24a9fd47-e9b0-44df-b60d-9d8680086d26",
               "x": {
                 "type": "number",
                 "value": 9
               },
               "y": {
                 "type": "number",
-                "value": 12
+                "value": 10
               },
               "direction": "up",
               "fadeSpeed": "2"
             },
-            "id": "a7b8e191-c537-4665-a135-03252baa734c"
+            "id": "f87f2e77-29ae-4e01-b526-41a5ca33e460"
           }
         ],
         "false": [
@@ -120,13 +98,13 @@
             "args": {
               "__collapse": false
             },
-            "id": "202740a8-275c-487e-ab2d-5ad49adf3c89"
+            "id": "c598ee73-e3ae-417f-a6e6-ad09620e0186"
           }
         ]
       },
-      "id": "3fd299e6-78e8-4f3b-954c-74045301f73a"
+      "id": "ef6350ca-d317-4870-a8fa-4c49ad34e137"
     }
   ],
   "leaveScript": [],
-  "_index": 3
+  "_index": 2
 }

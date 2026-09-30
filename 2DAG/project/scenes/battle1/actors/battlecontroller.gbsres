@@ -51,7 +51,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -82,7 +82,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -97,6 +97,39 @@
         "false": []
       },
       "id": "d19ab15c-5a24-48ee-86b6-35e708703cc9"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "30"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "b06a6ed6-1e13-4b3e-8737-76229d9ec93e",
+              "x": {
+                "type": "number",
+                "value": 6
+              },
+              "y": {
+                "type": "number",
+                "value": 37
+              },
+              "direction": "up",
+              "fadeSpeed": "2"
+            },
+            "id": "444c1281-ecf1-4d6e-aa95-5d6aaf397d84"
+          }
+        ],
+        "false": []
+      },
+      "id": "24d99e18-45ab-4073-a96a-d76469a93fa0"
     }
   ],
   "hit1Script": [],
