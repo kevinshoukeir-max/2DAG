@@ -51,7 +51,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -82,7 +82,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -105,7 +105,8 @@
           "type": "variable",
           "value": "32"
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": false
       },
       "children": {
         "true": [

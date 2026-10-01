@@ -155,6 +155,19 @@
             "id": "3546246d-81b4-4ca1-9bab-28e75b5c12e8"
           },
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "crash",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": false,
+              "effect": 0
+            },
+            "id": "7a4044c8-948a-4feb-9286-f2da891705e6"
+          },
+          {
             "command": "EVENT_CAMERA_SHAKE",
             "args": {
               "time": 0.5,

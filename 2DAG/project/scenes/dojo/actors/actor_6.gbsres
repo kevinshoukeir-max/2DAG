@@ -18,16 +18,6 @@
   "symbol": "actor_28",
   "script": [
     {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "5",
-        "value": {
-          "type": "true"
-        }
-      },
-      "id": "a67b43f4-bfb7-4233-be18-1ebfee3c6432"
-    },
-    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "0c4ecb56-971a-4400-a49a-cde5ed4e1843"

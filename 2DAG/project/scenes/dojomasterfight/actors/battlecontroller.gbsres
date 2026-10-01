@@ -111,6 +111,33 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Wow... You are\nfar stronger than",
+                "I anticipated. You\nhave become the",
+                "new master of this\ndojo now."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "b0e2a623-fef7-45a2-8798-88e141b0b41b"
+          },
+          {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
               "sceneId": "322974f8-6a87-4d93-b312-f7beaef4cdf7",
